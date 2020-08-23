@@ -1,0 +1,264 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "profiles": {
+        "defaults": {
+            "colorScheme": "FrontEndDelight"
+        },
+        "list": [
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false,
+                "startingDirectory": "F:"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                // WSL 2
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04 🐳",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme": "UbuntuLegit",
+                "fontFace": "Cascadia Code",
+                "acrylicOpacity": 0.8,
+                "backgroundImage": "C:/Users/thoma/OneDrive/Pictures/Me/Thomas Maurer Logos 2016/WindowsTerminal/RobotwithBackground.jpg",
+                "useAcrylic": true,
+                "backgroundImageOpacity": 0.1,
+                "startingDirectory": "F:"
+            },
+            {
+                "acrylicOpacity": 0.75,
+                "closeOnExit": true,
+                "colorScheme": "BlulocoLight",
+                "commandline": "py.exe",
+                "cursorColor": "#000",
+                "cursorShape": "bar",
+                "fontFace": "Consolas",
+                "fontSize": 12,
+                "guid": "{9acc4e14-d6f7-4f24-9491-c0f554eacd67}",
+                "historySize": 9001,
+                "icon": "c:/icons/python.png",
+                "name": "python",
+                "padding": "10, 10, 10, 10",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
+                "acrylicOpacity": 0.75,
+                "closeOnExit": true,
+                "colorScheme": "Campbell",
+                "commandline": "node.exe",
+                "cursorColor": "#FFFFFF",
+                "cursorShape": "bar",
+                "fontFace": "Consolas",
+                "fontSize": 12,
+                "guid": "{c749290f-b514-45a7-993a-2cef99b7ebd3}",
+                "historySize": 9001,
+                "icon": "c:/icons/node.png",
+                "name": "node",
+                "padding": "10, 10, 10, 10",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "colorScheme": "AlienBlood",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "F:"
+            }
+        ]
+    },
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "Dracula",
+            "background": "#272935",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "white": "#F8F8F2",
+            "yellow": "#FFB86C",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#F8F8F2",
+            "brightYellow": "#FFFFA5"
+        },
+        {
+            "name": "Afterglow",
+            "black": "#151515",
+            "red": "#ac4142",
+            "green": "#7e8e50",
+            "yellow": "#e5b567",
+            "blue": "#6c99bb",
+            "purple": "#9f4e85",
+            "cyan": "#7dd6cf",
+            "white": "#d0d0d0",
+            "brightBlack": "#505050",
+            "brightRed": "#ac4142",
+            "brightGreen": "#7e8e50",
+            "brightYellow": "#e5b567",
+            "brightBlue": "#6c99bb",
+            "brightPurple": "#9f4e85",
+            "brightCyan": "#7dd6cf",
+            "brightWhite": "#f5f5f5",
+            "background": "#212121",
+            "foreground": "#d0d0d0"
+        },
+        {
+            "name": "FrontEndDelight",
+            "black": "#242526",
+            "red": "#f8511b",
+            "green": "#565747",
+            "yellow": "#fa771d",
+            "blue": "#2c70b7",
+            "purple": "#f02e4f",
+            "cyan": "#3ca1a6",
+            "white": "#adadad",
+            "brightBlack": "#5fac6d",
+            "brightRed": "#f74319",
+            "brightGreen": "#74ec4c",
+            "brightYellow": "#fdc325",
+            "brightBlue": "#3393ca",
+            "brightPurple": "#e75e4f",
+            "brightCyan": "#4fbce6",
+            "brightWhite": "#8c735b",
+            "background": "#1b1c1d",
+            "foreground": "#adadad"
+        },
+        {
+            "name": "AlienBlood",
+            "black": "#112616",
+            "red": "#7f2b27",
+            "green": "#2f7e25",
+            "yellow": "#717f24",
+            "blue": "#2f6a7f",
+            "purple": "#47587f",
+            "cyan": "#327f77",
+            "white": "#647d75",
+            "brightBlack": "#3c4812",
+            "brightRed": "#e08009",
+            "brightGreen": "#18e000",
+            "brightYellow": "#bde000",
+            "brightBlue": "#00aae0",
+            "brightPurple": "#0058e0",
+            "brightCyan": "#00e0c4",
+            "brightWhite": "#73fa91",
+            "background": "#0f1610",
+            "foreground": "#637d75"
+        },
+        {
+            "name": "AlienBlood",
+            "black": "#112616",
+            "red": "#7f2b27",
+            "green": "#2f7e25",
+            "yellow": "#717f24",
+            "blue": "#2f6a7f",
+            "purple": "#47587f",
+            "cyan": "#327f77",
+            "white": "#647d75",
+            "brightBlack": "#3c4812",
+            "brightRed": "#e08009",
+            "brightGreen": "#18e000",
+            "brightYellow": "#bde000",
+            "brightBlue": "#00aae0",
+            "brightPurple": "#0058e0",
+            "brightCyan": "#00e0c4",
+            "brightWhite": "#73fa91",
+            "background": "#0f1610",
+            "foreground": "#637d75"
+        },
+        {
+            "name": "BlulocoLight",
+            "black": "#cbccd5",
+            "red": "#c90e42",
+            "green": "#21883a",
+            "yellow": "#d54d17",
+            "blue": "#1e44dd",
+            "purple": "#6d1bed",
+            "cyan": "#1f4d7a",
+            "white": "#000000",
+            "brightBlack": "#dedfe8",
+            "brightRed": "#fc4a6d",
+            "brightGreen": "#34b354",
+            "brightYellow": "#b89427",
+            "brightBlue": "#1085d9",
+            "brightPurple": "#c00db3",
+            "brightCyan": "#5b80ad",
+            "brightWhite": "#1d1d22",
+            "background": "#f7f7f7",
+            "foreground": "#2a2c33"
+        }
+    ],
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+        {
+            "command": "copy",
+            "keys": [
+                "ctrl+c"
+            ]
+        },
+        {
+            "command": "paste",
+            "keys": [
+                "ctrl+v"
+            ]
+        },
+        {
+            "command": "find",
+            "keys": [
+                "ctrl+f"
+            ]
+        },
+        {
+            "command": "closeTab",
+            "keys": [
+                "ctrl+w"
+            ]
+        },
+        {
+            "command": "newTab",
+            "keys": [
+                "ctrl+t"
+            ]
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto"
+            },
+            "keys": [
+                "ctrl+shift+t"
+            ]
+        }
+    ]
+}
